@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.countdown-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+.countdown-item {
+  color: #fff;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 30px;
+  margin: 10px;
+  padding-top: 10px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.countdown-item span {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 600px) {
+  .seconds {
+    display: none;
+  }
+}
